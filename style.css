@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+}
+
+.hamburger{
+    display: none;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.logo h2{
+    color: #e60023;
+}
+
+.search-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.explore-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.search-box{
+    position: relative;
+
+}
+
+.search-box i{
+    position: absolute;
+    left: 12px;
+    top: 25%;
+    color: gray;
+}
+
+.search-box input{
+    background-color: #f1f1f1;
+    width: 250px;
+    padding: 10px 15px 10px 35px;
+    border-radius: 20px;
+    border: none;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-weight: 550;
+}
+
+.auth-btns{
+    display: flex;
+    gap: 10px;  
+}
+
+.login{
+    background-color: #e60023;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.signup{
+    background-color: #e1e1e1;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.gallery h1{
+    color: #e60023;
+    font-size: 52px;
+    text-align: center;
+    margin: 40px 0px;
+    letter-spacing: 1px;
+}
+
+.pin-container{
+    column-count: 4;
+    margin-left: 20px;
+    column-gap: 15px;
+    padding: 25px 40px;
+}
+
+.pin{
+    margin-bottom: 20px;
+    break-inside: avoid;
+}
+
+.pin img{
+    border-radius: 15px;
+    width: 100%;
+    cursor: pointer;
+    transform: scale(1.05);
+}
