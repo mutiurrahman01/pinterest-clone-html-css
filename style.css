@@ -170,3 +170,28 @@
 }
 
 
+.idea-text{
+    text-align: center;
+    padding: 200px 1px;
+}
+
+.feature{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 1px;
+}
+
+.feature button{
+    margin-top: 22px;
+    padding: 8px 16px;
+    border-radius: 18px;
+    border: none;
+    background-color: #e60023;
+    color: white;
+    font-weight: 650;
+    cursor: pointer;
+}
+
+/* .feature  */
