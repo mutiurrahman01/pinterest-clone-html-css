@@ -172,21 +172,43 @@
 
 .idea-text{
     text-align: center;
-    padding: 200px 1px;
+    padding: 80px 20px;
+
+}
+
+.idea-text h2{
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.idea-text p{
+    font-size: 18px;
+    /* text-align: center; */
+    color: #555;
+    max-width: 700px;
+    margin: auto;
+}
+
+.feature-section{
+    padding: 80px 10%;
 }
 
 .feature{
     display: flex;
     text-align: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 20px 1px;
+    margin-bottom: 60px;
+}
+
+.feature.reverse{
+    flex-direction: row-reverse;
 }
 
 .feature button{
-    margin-top: 22px;
-    padding: 8px 16px;
-    border-radius: 18px;
+    margin-top: 32px;
+    padding: 12px 25px;
+    border-radius: 25px;
     border: none;
     background-color: #e60023;
     color: white;
@@ -194,4 +216,19 @@
     cursor: pointer;
 }
 
-/* .feature  */
+.feature h3{
+    margin-bottom: 16px;
+    font-size: 32px;
+}
+
+.feature img{
+    width: 400px;
+    height: 500px;
+    border-radius: 16px;
+}
+
+.feature p{
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
