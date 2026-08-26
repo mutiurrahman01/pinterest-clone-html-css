@@ -170,6 +170,7 @@
 }
 
 
+/* idea text SECTION */
 .idea-text{
     text-align: center;
     padding: 80px 20px;
@@ -183,19 +184,20 @@
 
 .idea-text p{
     font-size: 18px;
-    /* text-align: center; */
+         /* text-align: center; */
     color: #555;
     max-width: 700px;
     margin: auto;
 }
 
+/* feature SECTION */
 .feature-section{
     padding: 80px 10%;
 }
 
 .feature{
     display: flex;
-    text-align: center;
+    /* text-align: center; */
     justify-content: space-between;
     align-items: center;
     margin-bottom: 60px;
@@ -206,7 +208,7 @@
 }
 
 .feature button{
-    margin-top: 32px;
+    /* margin-top: 32px; */
     padding: 12px 25px;
     border-radius: 25px;
     border: none;
@@ -217,7 +219,7 @@
 }
 
 .feature h3{
-    margin-bottom: 16px;
+    margin-bottom: 12px;
     font-size: 32px;
 }
 
@@ -229,6 +231,6 @@
 
 .feature p{
     color: #555;
-    margin-bottom: 20px;
+    margin-bottom: 26px;
     font-size: 18px;
 }
